@@ -1,4 +1,4 @@
-package dish;
+package model;
 
 public class Dish {
     private String id;

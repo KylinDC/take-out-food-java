@@ -1,6 +1,6 @@
-package promotion;
+package service.promotion;
 
-import order.Order;
+import model.Order;
 
 public class PriceBreakPromotion extends Promotion {
     private double totalPrice;

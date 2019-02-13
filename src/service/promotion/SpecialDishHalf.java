@@ -1,4 +1,4 @@
-package promotion;
+package service.promotion;
 
 public class SpecialDishHalf extends ItemPercentPromotion {
 

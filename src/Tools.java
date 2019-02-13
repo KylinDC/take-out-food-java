@@ -1,9 +1,9 @@
-import dish.Dish;
-import dish.LoadDishes;
-import order.Order;
-import promotion.Full30Break6;
-import promotion.Promotion;
-import promotion.SpecialDishHalf;
+import model.Dish;
+import model.Order;
+import service.promotion.Full30Break6;
+import service.promotion.Promotion;
+import service.promotion.SpecialDishHalf;
+import tools.LoadDishes;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,4 +1,6 @@
-package dish;
+package tools;
+
+import model.Dish;
 
 import java.util.HashMap;
 

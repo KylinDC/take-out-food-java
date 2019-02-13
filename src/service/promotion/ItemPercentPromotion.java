@@ -1,7 +1,7 @@
-package promotion;
+package service.promotion;
 
-import dish.Dish;
-import order.Order;
+import model.Dish;
+import model.Order;
 
 import java.util.Arrays;
 import java.util.Map;

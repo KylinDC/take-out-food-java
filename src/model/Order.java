@@ -1,6 +1,4 @@
-package order;
-
-import dish.Dish;
+package model;
 
 import java.util.HashMap;
 import java.util.Map;
