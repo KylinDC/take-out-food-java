@@ -10,6 +10,12 @@ public class Order {
         return dishes;
     }
 
+    public Order() {}
+
+    public Order(HashMap<Dish, Integer> dishes) {
+        this.dishes = dishes;
+    }
+
     public double getOrderOriginPrice() {
         float orderOriginPrice = 0;
         for (Map.Entry<Dish, Integer> dish : dishes.entrySet()) {
