@@ -7,6 +7,10 @@ import java.util.HashMap;
 public class LoadDishes {
     private static HashMap<String, Dish> dishes = new HashMap<String, Dish>();
 
+    public static void setDishes(HashMap<String, Dish> dishes) {
+        LoadDishes.dishes = dishes;
+    }
+
     private static void storageDishes() {
         Dish chicken = new Dish("ITEM0001", "黄焖鸡", 18.00);
         Dish rougamo = new Dish("ITEM0013", "肉夹馍", 6.00);
