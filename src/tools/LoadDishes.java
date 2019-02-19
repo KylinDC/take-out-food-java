@@ -32,4 +32,14 @@ public class LoadDishes {
         storageDishes();
         return dishes.get(id);
     }
+
+    public static Dish getDishByName(String name) {
+        storageDishes();
+        for (Dish dish : dishes.values()) {
+            if (dish.getName().equals(name)) {
+                return dish;
+            }
+        }
+        return null;
+    }
 }
